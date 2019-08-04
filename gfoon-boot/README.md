@@ -1,6 +1,6 @@
 
 ### gfoon-boot框架说明 
-#### 工程项目结构
+#### 工程结构
 
 |          工程名称                                                | 工程说明 |
 |        ----------------------------------------------          |----------------------|
@@ -8,9 +8,9 @@
 |│......gfoon-boot-bi                                            | 业务逻辑父级POM工程|
 |│......│......gfoon-boot-bi-xxx                                 | xxx业务逻辑POM工程|
 |│......│......│......gfoon-boot-bi-xxx-dao                      | 业务数据接口服务层（DO、Dao）|
-|│......│......│......gfoon-boot-bi-xxx-dao                      | 业务实体类（VO、DTO、PO）|
-|│......│......│......gfoon-boot-bi-xxx-dao                      | 业务逻辑处理层(Service、Impl)|
-|│......│......│......gfoon-boot-bi-xxx-dao                      | 业务视图控制层及Rest接口（Controller/Api）|
+|│......│......│......gfoon-boot-bi-xxx-pojo                     | 业务实体类（VO、DTO、PO）|
+|│......│......│......gfoon-boot-bi-xxx-service                  | 业务逻辑处理层(Service、Impl)|
+|│......│......│......gfoon-boot-bi-xxx-controller               | 业务视图控制层及Rest接口（Controller/Api）|
 |│......gfoon-boot-cloud                                         | 微服务分布式服务父级工程|
 |│......│......gfoon-boot-cloud-bus                              | 消息总线|
 |│......│......gfoon-boot-cloud-config                           | 云端配置中心|
@@ -38,4 +38,9 @@
 |│......│......gfoon-boot-sys-web                                | 系统管理后台 |
 |│......gfoon-boot-web                                           | 业务web服务|
 |│......│......gfoon-boot-web-xxx                                | xxx业务展现（MiniUI、VUE等）|
-                  
+        
+### 工程解析
+```
+
+```
+         
